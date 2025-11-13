@@ -338,7 +338,7 @@ export const Contact = () => {
                       <div className="text-blue-100 text-xs">Projects</div>
                     </div>
                     <div className="text-center">
-                      <div className="text-2xl font-bold text-white">2+</div>
+                      <div className="text-2xl font-bold text-white">3.10+</div>
                       <div className="text-blue-100 text-xs">Years Exp</div>
                     </div>
                     <div className="text-center">

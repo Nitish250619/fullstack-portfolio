@@ -14,22 +14,22 @@ export const Services = () => {
       price: "Starting from ₹5,000",
       deliveryTime: "7-14 days"
     },
-    {
-      icon: Smartphone,
-      title: "Application Development", 
-      description: "Full stack application development with modern technologies, focusing on user experience and performance.",
-      features: ["Full Stack Development", "API Integration", "Database Design", "User Authentication"],
-      price: "Starting from ₹15,000",
-      deliveryTime: "10-21 days"
-    },
-    {
-      icon: Settings,
-      title: "CRM Software Maintenance",
-      description: "Comprehensive maintenance and enhancement of Customer Relationship Management systems for optimal performance.",
-      features: ["System Updates", "Performance Optimization", "Feature Enhancement", "Data Migration"],
-      price: "Starting from ₹5,000",
-      deliveryTime: "3-7 days"
-    },
+    // {
+    //   icon: Smartphone,
+    //   title: "Application Development", 
+    //   description: "Full stack application development with modern technologies, focusing on user experience and performance.",
+    //   features: ["Full Stack Development", "API Integration", "Database Design", "User Authentication"],
+    //   price: "Starting from ₹15,000",
+    //   deliveryTime: "10-21 days"
+    // },
+    // {
+    //   icon: Settings,
+    //   title: "CRM Software Maintenance",
+    //   description: "Comprehensive maintenance and enhancement of Customer Relationship Management systems for optimal performance.",
+    //   features: ["System Updates", "Performance Optimization", "Feature Enhancement", "Data Migration"],
+    //   price: "Starting from ₹5,000",
+    //   deliveryTime: "3-7 days"
+    // },
     {
       icon: Bug,
       title: "Error Fixing & Debugging",
@@ -46,14 +46,14 @@ export const Services = () => {
       price: "Starting from ₹600",
       deliveryTime: "3-5 days"
     },
-    {
-      icon: Code,
-      title: "Custom Solutions",
-      description: "Tailored software solutions designed to meet specific business requirements and challenges.",
-      features: ["Custom Development", "Business Logic", "Third-party Integrations", "Scalable Architecture"],
-      price: "Quote Based",
-      deliveryTime: "Varies"
-    }
+    // {
+    //   icon: Code,
+    //   title: "Custom Solutions",
+    //   description: "Tailored software solutions designed to meet specific business requirements and challenges.",
+    //   features: ["Custom Development", "Business Logic", "Third-party Integrations", "Scalable Architecture"],
+    //   price: "Quote Based",
+    //   deliveryTime: "Varies"
+    // }
   ];
 
   return (
@@ -146,7 +146,7 @@ export const Services = () => {
             <p className="text-gray-600 mb-6 max-w-md">
               Don't see exactly what you need? Let's discuss your unique requirements and create a tailored solution.
             </p>
-            <a href="https://wa.me/919284769125" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/9953938165" target="_blank" rel="noopener noreferrer">
               <Button className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-8 py-3 rounded-xl font-medium">
                 Let's Talk
               </Button>

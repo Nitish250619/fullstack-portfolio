@@ -84,15 +84,15 @@ export const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      value: "krishnachavan.tech@gmail.com",
-      link: "mailto:krishnachavan.tech@gmail.com",
+      value: "nitishsuryan250619@gmail.com",
+      link: "mailto:nitishsuryan250619@gmail.com",
       description: "Best way to reach me",
     },
     {
       icon: Phone,
       title: "Phone",
-      value: "9284769125",
-      link: "tel:9284769125",
+      value: "9953938165",
+      link: "tel:9953938165",
       description: "Available 9 AM - 8 PM IST",
     },
     {
@@ -105,15 +105,15 @@ export const Contact = () => {
     {
       icon: Linkedin,
       title: "LinkedIn",
-      value: "Krishna Chavan",
-      link: "https://www.linkedin.com/in/krishna-chavan-882516249",
+      value: "Nitish Suryan",
+      link: "https://www.linkedin.com/in/nitishsuryan-in",
       description: "Professional network",
     },
     {
       icon: Github,
       title: "GitHub",
-      value: "Krishnachavan1930",
-      link: "https://github.com/Krishnachavan1930",
+      value: "Nitish250619",
+      link: "https://github.com/Nitish250619",
       description: "View my code",
     },
   ]
@@ -198,7 +198,7 @@ export const Contact = () => {
                         value={formData.name}
                         onChange={handleChange}
                         required
-                        placeholder="Krishna Chavan"
+                        placeholder="Nitish Suryan"
                         className="h-11 sm:h-12 border-gray-200 focus:border-blue-500 focus:ring-blue-500 text-base transition-all duration-200"
                       />
                     </div>
@@ -213,7 +213,7 @@ export const Contact = () => {
                         value={formData.email}
                         onChange={handleChange}
                         required
-                        placeholder="krishna@example.com"
+                        placeholder="nitish@example.com"
                         className="h-11 sm:h-12 border-gray-200 focus:border-blue-500 focus:ring-blue-500 text-base transition-all duration-200"
                       />
                     </div>

@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
-import { Menu, X, User } from 'lucide-react';
+import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
+import { Menu, X, User } from "lucide-react";
 
 interface NavItem {
   name: string;
@@ -36,11 +36,12 @@ const Navbar: React.FC<NavbarProps> = ({ navItems, scrollToSection }) => {
   return (
     <>
       {/* Promotional Strip - This will scroll with the page */}
-      {showPromoStrip && (
+      {/* {showPromoStrip && (
         <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white text-sm py-2 px-4 relative">
           <div className="max-w-7xl mx-auto text-center">
             <span className="font-medium">
-              🚀 Ready to bring your ideas to life? Get 20% off your first project - Limited time offer!
+              🚀 Ready to bring your ideas to life? Get 20% off your first
+              project - Limited time offer!
             </span>
             <button
               onClick={() => setShowPromoStrip(false)}
@@ -51,14 +52,20 @@ const Navbar: React.FC<NavbarProps> = ({ navItems, scrollToSection }) => {
             </button>
           </div>
         </div>
-      )}
+      )} */}
 
       {/* Main Navbar - This will be sticky */}
-      <nav className={`sticky top-0 w-full z-50 transition-all duration-300 ${scrolled ? "bg-background/95 backdrop-blur-sm shadow-lg" : "bg-transparent"}`}>
+      <nav
+        className={`sticky top-0 w-full z-50 transition-all duration-300 ${
+          scrolled
+            ? "bg-background/95 backdrop-blur-sm shadow-lg"
+            : "bg-transparent"
+        }`}
+      >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              Krishna Chavan
+             Nitish Suryan
             </div>
 
             {/* Desktop Menu */}
@@ -104,7 +111,11 @@ const Navbar: React.FC<NavbarProps> = ({ navItems, scrollToSection }) => {
                   {item.name}
                 </button>
               ))}
-              <Link to="/admin" className="block px-3 py-2" onClick={() => setIsOpen(false)}>
+              <Link
+                to="/admin"
+                className="block px-3 py-2"
+                onClick={() => setIsOpen(false)}
+              >
                 <button className="w-full text-left text-foreground hover:text-blue-600 transition-colors duration-300 font-medium">
                   Admin Login
                 </button>

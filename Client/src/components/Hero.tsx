@@ -33,13 +33,13 @@ export const Hero = () => {
         <div className={`transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
           <div className="mb-6">
             <span className="inline-block px-4 py-2 rounded-full bg-gradient-to-r from-blue-100 to-purple-100 dark:from-blue-900/50 dark:to-purple-900/50 text-blue-700 dark:text-blue-300 text-sm font-medium mb-4 animate-fade-in">
-              ✨ Professional Freelancer & Full Stack Developer
+              ✨ Professional Freelancer & React JS Developer
             </span>
           </div>
 
           <h1 className="text-4xl sm:text-6xl lg:text-7xl xl:text-8xl font-bold mb-6 leading-tight">
             <span className="bg-gradient-to-r from-gray-900 via-blue-900 to-purple-900 dark:from-white dark:via-blue-100 dark:to-purple-100 bg-clip-text text-transparent animate-gradient">
-              Krishna Chavan
+              Nitish Suryan
             </span>
           </h1>
 
@@ -53,7 +53,7 @@ export const Hero = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-            <a href="https://wa.me/919284769125" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/9953938165" target="_blank" rel="noopener noreferrer">
               <Button
                 size="lg"
                 className="group bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600 hover:from-blue-700 hover:via-purple-700 hover:to-indigo-700 text-white px-8 py-4 text-lg font-semibold rounded-xl shadow-xl hover:shadow-2xl transform transition-all duration-300 hover:scale-105"
@@ -64,7 +64,7 @@ export const Hero = () => {
               </Button>
             </a>
 
-            <a href="/Krishna_Chavan_Resume.pdf" download="Krishna_Chavan_Resume.pdf">
+            <a href="/Nitish_Resume_.pdf" download="Nitish_Resume_.pdf">
               <Button
                 variant="outline"
                 size="lg"
@@ -83,7 +83,7 @@ export const Hero = () => {
               <div className="text-sm text-gray-600 dark:text-gray-400">Projects Completed</div>
             </div>
             <div className="text-center p-4 rounded-xl bg-white/50 dark:bg-gray-800/50 backdrop-blur-sm border border-gray-200/50 dark:border-gray-700/50">
-              <div className="text-2xl font-bold text-purple-600 dark:text-purple-400">2+</div>
+              <div className="text-2xl font-bold text-purple-600 dark:text-purple-400">3.10+</div>
               <div className="text-sm text-gray-600 dark:text-gray-400">Years Experience</div>
             </div>
             <div className="text-center p-4 rounded-xl bg-white/50 dark:bg-gray-800/50 backdrop-blur-sm border border-gray-200/50 dark:border-gray-700/50">
